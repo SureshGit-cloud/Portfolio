@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suresh | Portfolio</title>
+  <link rel="icon" href="briefcase.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-icons@0.344.0/dist/umd/lucide.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="nav-content">
+        <div class="logo">
+          <span><a href="#home">Portfolio</a></span>
+        </div>
+        
+        <div class="nav-links" id="navLinks">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#certifications" class="nav-link">Certifications</a>
+          <a href="#hobbies" class="nav-link">Hobbies</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        
+        <!-- <div class="social-icons">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <i data-lucide="github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/suresh-tammisetty-66aa21185/" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <i data-lucide="linkedin"></i>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon">
+            <i data-lucide="twitter"></i>
+          </a>
+        </div> -->
+        
+        <div class="menu-toggle" id="menuToggle">
+          <i data-lucide="menu"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-links">
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#education" class="mobile-link">Education</a>
+      <a href="#certifications" class="mobile-link">Certifications</a>
+      <a href="#hobbies" class="mobile-link">Hobbies</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+    <div class="mobile-social">
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-icon">
+        <i data-lucide="github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/suresh-tammisetty-66aa21185/" target="_blank" rel="noopener noreferrer" class="social-icon">
+        <i data-lucide="linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-icon">
+        <i data-lucide="twitter"></i>
+      </a>
+    </div>
+  </div>
+  
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="bg-gradient"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    
+    <div class="container">
+      <div class="hero-content">
+    
+        <!-- Left Side: Profile Image, Description, and Social Icons -->
+        <div class="profile-info">
+          <div class="profile-image">
+            <img src="MyPhoto.jpg" alt="Profile">
+          </div>
+          
+          <h1 class="gradient-text">Suresh Tammisetty</h1>
+          <h2>Full Stack Java Developer</h2>
+          
+          <p>
+            I create exceptional and accessible digital experiences for the web. Specializing in modern, 
+            responsive websites and applications, I have built projects like ST Fashion Store, an E-Commerce platform, 
+            and a Food Delivery App, a dynamic ordering system.
+          </p>
+    
+          <div class="hero-social">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-btn"> <img src="github.png" alt="">
+              <i data-lucide="github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/suresh-tammisetty-66aa21185/" target="_blank" rel="noopener noreferrer" class="social-btn"> <img src="linkedin.png" alt="">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-btn"> <img src="instagram.png" alt="">
+              <i data-lucide="instagram"></i>
+            </a>
+          </div>
+        </div>
+    
+        <!-- Right Side: Video Player -->
+        <div class="video-container">
+          <div class="video-wrapper">
+            <video id="demo-video" autoplay muted loop>
+              <source src="Untitled 2_720p.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <!-- <div class="video-overlay">
+              <button id="play-btn" class="play-button">
+                <i data-lucide="play"></i>
+              </button>
+            </div> -->
+            <div class="video-caption">
+              <span>Latest Projects Demo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+        <a href="#about"><button class="scroll-btn" id="scrollToAbout">
+            <i data-lucide="arrow-down"></i> <img src="up-arrow.png" alt="">
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <div class="underline"></div>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-image">
+          <div class="image-border"></div>
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Working on code">
+        </div>
+        
+        <div class="about-text">
+          <h3>Who am I?</h3>
+          <p>
+            Hi, I'm Suresh Tammisetty, a Java Full Stack Developer with a strong foundation 
+            in building dynamic and user-friendly web applications.
+          </p>
+          <p>
+            I completed my MCA in 2024 and specialized in Java Full Stack Development, mastering Java, Spring Boot, 
+            Hibernate, JSP, Servlets, MySQL, HTML, CSS, and JavaScript in <a href="https://thetapacademy.com/" style="color: blue; text-decoration: none;">Tap Academy</a>. 
+            With a strong problem-solving mindset, I focus on building efficient and user-centric web applications. 
+            Passionate about continuous learning and innovation.
+          </p>
+          
+          
+          <div class="qualities">
+            <div class="quality">
+              <div class="quality-icon">
+                <i data-lucide="code"></i> 
+                <img src="software.png" alt="">
+              </div>
+              <div class="quality-text">
+                <h4>Development</h4>
+                <p>Clean, efficient code</p>
+              </div>
+            </div>
+            
+            <div class="quality">
+              <div class="quality-icon">
+                <i data-lucide="globe"></i>
+                <img src="adaptation.png" alt="">
+              </div>
+              <div class="quality-text">
+                <h4>Adaptability</h4>
+                <p>Quickly learning</p>
+              </div>
+            </div>
+            
+            <div class="quality">
+              <div class="quality-icon">
+                <i data-lucide="lightbulb"></i>
+                <img src="creative-icon.png" alt="">
+              </div>
+              <div class="quality-text">
+                <h4>Creative</h4>
+                <p>Innovative solutions</p>
+              </div>
+            </div>
+            
+            <div class="quality">
+              <div class="quality-icon">
+                <i data-lucide="users"></i>
+                <img src="collaboration.png" alt="">
+              </div>
+              <div class="quality-text">
+                <h4>Collaborative</h4>
+                <p>Team player</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Skills</h2>
+        <div class="underline"></div>
+        <p>
+          I've worked with a variety of technologies in the web development world.
+          Here's a breakdown of my technical skills.
+        </p>
+      </div>
+      
+      <div class="skills-content">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="skill-info">
+                <span>HTML5</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" style="width: 95%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-bar">
+              <div class="skill-info">
+                <span>CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" style="width: 90%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-bar">
+              <div class="skill-info">
+                <span>JSP</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-info">
+                  <span>JavaScript</span>
+                  <span>70%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 70%"></div>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="skill-info">
+                <span>Java</span>
+                <span>98%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" style="width: 98%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-bar">
+              <div class="skill-info">
+                <span>Advanced Java</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" style="width: 95%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-bar">
+              <div class="skill-info">
+                <span>Servlets</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress">
+                <div class="skill-progress-bar" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-info">
+                  <span>Programming</span>
+                  <span>95%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 95%"></div>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+            <h3>Database</h3>
+            <div class="skill-bars">
+                <div class="skill-bar">
+                    <div class="skill-info">
+                    <span>MySQL</span>
+                    <span>90%</span>
+                    </div>
+                    <div class="skill-progress">
+                    <div class="skill-progress-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-bar">
+                    <div class="skill-info">
+                    <span>Oracle</span>
+                    <span>80%</span>
+                    </div>
+                    <div class="skill-progress">
+                    <div class="skill-progress-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="skill-category">
+            <h3>Frameworks</h3>
+            <div class="skill-bars">
+              <div class="skill-bar">
+                <div class="skill-info">
+                  <span>Hibernate</span>
+                  <span>90%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 90%"></div>
+                </div>
+              </div>
+              
+              <div class="skill-bar">
+                <div class="skill-info">
+                  <span>Spring</span>
+                  <span>60%</span>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-progress-bar" style="width: 60%"></div>
+                </div>
+              </div>
+            </div>  
+        </div>
+        
+      </div>
+      
+      <div class="tech-icons">
+        <div class="tech-icon">
+          <div class="tech-icon-circle"><img src="java.png" alt=""></div>
+          <span>Java</span>
+        </div>
+        <div class="tech-icon">
+          <div class="tech-icon-circle"><img src="coding.png" alt=""></div>
+          <span>HTML/CSS</span>
+        </div>
+        <div class="tech-icon">
+          <div class="tech-icon-circle"><img src="java-script.png" alt=""></div>
+          <span>JavaScript</span>
+        </div>
+        <div class="tech-icon">
+          <div class="tech-icon-circle"><img src="mysql-database.png" alt=""></div>
+          <span>MySQL</span>
+        </div>
+        <div class="tech-icon">
+          <div class="tech-icon-circle"><img src="hibernate.491x512.png" alt=""></div>
+          <span>Hibernate</span>
+        </div>
+        <div class="tech-icon">
+          <div class="tech-icon-circle"><img src="Spring.png" alt=""></div>
+          <span>Spring</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Projects</h2>
+        <div class="underline"></div>
+        <p>
+          Here are some of my recent projects. Each project is a unique piece of development.
+        </p>
+      </div>
+      
+      <!-- <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="React">React</button>
+        <button class="filter-btn" data-filter="JavaScript">JavaScript</button>
+        <button class="filter-btn" data-filter="TypeScript">TypeScript</button>
+        <button class="filter-btn" data-filter="Node.js">Node.js</button>
+        <button class="filter-btn" data-filter="API">API</button>
+      </div> -->
+      
+      <div class="project-grid">
+        <div class="project-card" data-tags="React,Node.js,MongoDB">
+          <div class="project-image">
+            <img src="Project1.jpg" alt="E-Commerce Platform">
+          </div>
+          <div class="project-details">
+            <h3>ST Fashion Store</h3>
+            <p>A visually appealing and responsive e-commerce website built using HTML and CSS. It features a modern UI with well-structured product listings and an elegant design.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://sureshgit-cloud.github.io/ST_Fashion_Store/" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i data-lucide="external-link"></i>
+                <span>View Site</span>
+              </a>
+              <a href="https://github.com/SureshGit-cloud/ST_Fashion_Store" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i data-lucide="github"></i>
+                <span>Source Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card" data-tags="React,Firebase,TypeScript">
+          <div class="project-image">
+            <img src="FoodGenie.png" alt="Task Management App">
+          </div>
+          <div class="project-details">
+            <h3>FoodGenie</h3>
+            <p>A seamless food ordering platform that helps users explore restaurants, place orders, and navigate easily. Built with Java, JSP, Servlets, and MySQL for a smooth and efficient experience. </p>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Servlets</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://www.youtube.com/watch?v=ImL00Us_05M" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i data-lucide="external-link"></i>
+                <span>Demo Video</span>
+              </a>
+              <a href="https://github.com/SureshGit-cloud/FoodGenie" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i data-lucide="github"></i>
+                <span>Source Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card" data-tags="React,TypeScript">
+          <div class="project-image">
+            <img src="portfolio.png" alt="Portfolio Website">
+          </div>
+          <div class="project-details">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio highlighting my projects and skills.
+              Designed with a modern, responsive, and user-friendly interface.
+              Showcases expertise in web development and dynamic applications.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i data-lucide="external-link"></i>
+                <span>Live Demo</span>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i data-lucide="github"></i>
+                <span>Source Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+        <div class="section-header">
+            <h2>Education</h2>
+            <div class="underline"></div>
+            <p>
+                My academic background and continuous learning journey that has shaped my professional skills.
+            </p>
+        </div>
+
+        <div class="education-timeline">
+            <!-- Education Item 1 -->
+            <div class="timeline-item">
+                <div class="timeline-dot">
+                    <i data-lucide="graduation-cap"></i>
+                </div>
+                <div class="timeline-date">
+                    <span>2022 - 2024</span>
+                </div>
+                <div class="timeline-content">
+                    <div class="edu-image">
+                        <img src="EducationImages/VRSiddhartha.jpg" alt="Stanford University">
+                    </div>
+                    <h3>MCA (Master of Computer Applications)</h3>
+                    <h4>Velagapudi Ramakrishna Siddhartha Engineering College | Vijayawada</h4>
+                    <p>Graduated with an MCA, building a solid foundation in software development and computational problem-solving. Developed strong analytical and technical abilities through academic coursework and hands-on projects. Focused on leveraging knowledge to contribute to real-world technology solutions.</p>
+                    <div class="timeline-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">DBMS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Item 2 -->
+            <div class="timeline-item">
+                <div class="timeline-dot">
+                    <i data-lucide="graduation-cap"></i>
+                </div>
+                <div class="timeline-date">
+                    <span>2018 - 2021</span>
+                </div>
+                <div class="timeline-content">
+                    <div class="edu-image">
+                        <img src="EducationImages/JKC.jpg" alt="MIT">
+                    </div>
+                    <h3>BSc - MPC</h3>
+                    <h4>JKC College | Guntur</h4>
+                    <p>
+                      Completed B.Sc with a focus on Mathematics, Physics, and Chemistry, developing strong analytical and problem-solving skills. Gained a deep understanding of scientific principles and methodologies, with hands-on experience in experiments.</p>
+                    <div class="timeline-tags">
+                        <span class="tag">Critical Thinking</span>
+                        <span class="tag">Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Item 3 -->
+            <div class="timeline-item">
+                <div class="timeline-dot">
+                    <i data-lucide="book-open"></i>
+                </div>
+                <div class="timeline-date">
+                    <span>2016 - 2018</span>
+                </div>
+                <div class="timeline-content">
+                    <div class="edu-image">
+                        <img src="EducationImages/Inter.jpg" alt="Harvard Extension School">
+                    </div>
+                    <h3>Intermediate - MPC</h3>
+                    <h4>Govt Junior College | Siripuram</h4>
+                    <p>Completed intermediate course in the stream of Mathematics, Physics, and Chemistry.</p>
+                    <div class="timeline-tags">
+                        <span class="tag">Logical Reasoning</span>
+                        <span class="tag">Attention to Detail</span>
+                        <span class="tag">Scientific Thinking</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Item 4 -->
+            <div class="timeline-item">
+                <div class="timeline-dot">
+                    <i data-lucide="school"></i>
+                </div>
+                <div class="timeline-date">
+                    <span>2014 - 2015</span>
+                </div>
+                <div class="timeline-content">
+                    <div class="edu-image">
+                        <img src="EducationImages/10th" alt="Phillips Exeter Academy">
+                    </div>
+                    <h3>10th - Class</h3>
+                    <h4>St Ann's English Medium School | Pedakurapadu</h4>
+                    <p>Completed my Secondary School .</p>
+                    <div class="timeline-tags">
+                        <span class="tag">Mathematics</span>
+                        <span class="tag">Computer Science</span>
+                        <span class="tag">Robotics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="certifications">
+    <div class="container">
+      <div class="section-header">
+        <h2>Certifications</h2>
+        <div class="underline"></div>
+        <p>
+          Professional certifications that validate my expertise in various technologies and methodologies.
+        </p>
+      </div>
+      
+      <div class="certifications-grid">
+        <div class="certification-card" data-image="Java Full Stack Certificate.jpg">
+          <div class="certification-icon">
+            <i data-lucide="award"></i>
+          </div>
+          <div class="certification-content">
+            <h3>Java Full Stack Web Development</h3>
+            <a href="https://thetapacademy.com/"><h4>Tap Academy</h4></a>
+            <p>Professional certification validating expertise in full stack web development.</p>
+            <span class="certification-date">Issued: January 2025</span>
+            <button class="view-certificate-btn">View Certificate</button>
+          </div>
+        </div>
+        
+        <!-- <div class="certification-card" data-image="https://images.unsplash.com/photo-1591017403286-fd8493524e1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80">
+          <div class="certification-icon">
+            <i data-lucide="award"></i>
+          </div>
+          <div class="certification-content">
+            <h3>Google Professional Cloud Architect</h3>
+            <h4>Google Cloud</h4>
+            <p>Certification for designing, developing, and managing robust, secure, scalable cloud architecture.</p>
+            <span class="certification-date">Issued: March 2021</span>
+            <button class="view-certificate-btn">View Certificate</button>
+          </div>
+        </div>
+        
+        <div class="certification-card" data-image="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80">
+          <div class="certification-icon">
+            <i data-lucide="award"></i>
+          </div>
+          <div class="certification-content">
+            <h3>Certified Kubernetes Administrator</h3>
+            <h4>Cloud Native Computing Foundation</h4>
+            <p>Certification for managing Kubernetes clusters and containerized applications at scale.</p>
+            <span class="certification-date">Issued: July 2020</span>
+            <button class="view-certificate-btn">View Certificate</button>
+          </div>
+        </div>
+        
+        <div class="certification-card" data-image="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80">
+          <div class="certification-icon">
+            <i data-lucide="award"></i>
+          </div>
+          <div class="certification-content">
+            <h3>MongoDB Certified Developer</h3>
+            <h4>MongoDB, Inc.</h4>
+            <p>Certification for building applications using MongoDB's document data model and query language.</p>
+            <span class="certification-date">Issued: November 2019</span>
+            <button class="view-certificate-btn">View Certificate</button>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificate Modal -->
+  <div class="certificate-modal" id="certificateModal">
+    <div class="certificate-modal-content">
+      <div class="certificate-modal-header">
+        <h3 id="certificateTitle">Certificate</h3>
+        <button id="closeModal" class="close-btn">&times;</button>
+      </div>
+      <div class="certificate-modal-body">
+        <img id="certificateImage" src="" alt="Certificate">
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Hobbies Section -->
+  <section id="hobbies" class="hobbies">
+    <div class="container">
+      <div class="section-header">
+        <h2>Hobbies & Interests</h2>
+        <div class="underline"></div>
+        <p>
+          Beyond coding, I'm passionate about exploring the cosmos and understanding our place in the universe.
+        </p>
+      </div>
+      
+      <div class="hobby-content">
+        <div class="hobby-video">
+          <video autoplay loop muted playsinline>
+            <source src="SolarSystem.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        
+        <div class="hobby-details">
+          <div class="hobby-header">
+            <div class="hobby-icon">
+              <i data-lucide="rocket"></i>
+            </div>
+            <h3>Space Exploration</h3>
+          </div>
+          
+          <p>
+            I'm fascinated by the mysteries of the cosmos and spend much of my free time exploring new discoveries about space. 
+            From following the latest NASA missions to studying astrophysics concepts, I'm constantly expanding my knowledge of our universe.
+          </p>
+          
+          <!-- <div class="hobby-activities">
+            <div class="hobby-activity">
+              <div class="activity-icon">
+                <i data-lucide="telescope"></i>
+              </div>
+              <div class="activity-text">
+                <h4>Amateur Astronomy</h4>
+                <p>I enjoy stargazing and tracking celestial events with my telescope.</p>
+              </div>
+            </div>
+            
+            <div class="hobby-activity">
+              <div class="activity-icon">
+                <i data-lucide="book-open"></i>
+              </div>
+              <div class="activity-text">
+                <h4>Space Literature</h4>
+                <p>Reading books and scientific papers about cosmology and space exploration.</p>
+              </div>
+            </div>
+            
+            <div class="hobby-activity">
+              <div class="activity-icon">
+                <i data-lucide="monitor"></i>
+              </div>
+              <div class="activity-text">
+                <h4>Space Documentaries</h4>
+                <p>Following documentaries and lectures about space missions and discoveries.</p>
+              </div>
+            </div>
+            
+            <div class="hobby-activity">
+              <div class="activity-icon">
+                <i data-lucide="code"></i>
+              </div>
+              <div class="activity-text">
+                <h4>Space-related Projects</h4>
+                <p>Developing applications that visualize space data and astronomical phenomena.</p>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="hobby-activities">
+            <div class="hobby-activity">
+              <div class="activity-icon">
+                <i data-lucide="book-open"></i>
+              </div>
+              <div class="activity-text">
+                <h4>Space Literature</h4>
+                <p>Reading books and scientific papers about cosmology, black holes, and space exploration.</p>
+              </div>
+            </div>
+          
+            <div class="hobby-activity">
+              <div class="activity-icon">
+                <i data-lucide="play-circle"></i>
+              </div>
+              <div class="activity-text">
+                <h4>Space Documentaries</h4>
+                <p>Watching documentaries and lectures about space missions, the universe, and the latest discoveries.</p>
+              </div>
+            </div>
+          
+            <div class="hobby-activity">
+              <div class="activity-icon">
+                <i data-lucide="globe"></i>
+              </div>
+              <div class="activity-text">
+                <h4>Exploring Space News</h4>
+                <p>Following space agencies like NASA, ISRO, and SpaceX for the latest updates on missions and research.</p>
+              </div>
+            </div>
+          
+            <div class="hobby-activity">
+              <div class="activity-icon">
+                <i data-lucide="users"></i>
+              </div>
+              <div class="activity-text">
+                <h4>Discussing Space Topics</h4>
+                <p>Engaging in discussions about space theories, interstellar travel, and the mysteries of the universe.</p>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="space-facts">
+            <h4>Fascinating Space Facts I Love</h4>
+            <ul class="facts-list">
+              <li>One million Earths could fit inside the Sun</li>
+              <li>A day on Venus is longer than a year on Venus</li>
+              <li>The Great Red Spot on Jupiter has been storming for over 400 years</li>
+              <li>There are more stars in the universe than grains of sand on all the beaches on Earth</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <div class="underline"></div>
+        <p>
+          Have a project in mind or want to collaborate? Feel free to reach out!
+        </p>
+      </div>
+      
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <i data-lucide="map-pin"></i><img src="map.png" alt="">
+            </div>
+            <div class="info-text">
+              <h4>Location</h4>
+              <p>Bangalore, India</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <i data-lucide="mail"></i><img src="communication.png" alt="">
+            </div>
+            <div class="info-text">
+              <h4>Email</h4>
+              <a href="mailto:tammisetty98@gmail.com">tammisetty98@gmail.com</a>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <i data-lucide="phone"></i><img src="telephone.png" alt="">
+            </div>
+            <div class="info-text">
+              <h4>Phone</h4>
+              <a href="tel:+916363694671">6363694671</a>
+            </div>
+          </div>
+          
+          <div class="social-follow">
+            <h4>Follow Me</h4>
+            <div class="follow-icons">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="social-btn"> <img src="/github.png" alt="">
+                <i data-lucide="github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/suresh-tammisetty-66aa21185/" target="_blank" rel="noopener noreferrer" class="social-btn"> <img src="/linkedin.png" alt="">
+                <i data-lucide="linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-btn"> <img src="/instagram.png" alt="">
+                <i data-lucide="instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <h3>Send Me a Message</h3>
+          
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn" id="submitBtn">
+              <i data-lucide="send"></i>
+              <span>Send Message</span>
+            </button>
+            
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Suresh Tammisetty</h3>
+          <p>
+            A passionate Full Stack Developer specializing in building exceptional digital experiences.
+            Let's work together to bring your ideas to life!
+          </p>
+          <div class="footer-social">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-icon">
+              <i data-lucide="github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-icon">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="footer-icon">
+              <i data-lucide="instagram"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <ul>
+            <li>Bangalore, India</li>
+            <li><a href="mailto:tammisetty98@gmail.com">tammmisetty98@gmail.com</a></li>
+            <li><a href="tel:+916363694671">6363694671</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© <span id="currentYear"></span> Suresh Tammisetty. All rights reserved.</p>
+        <a href="#home"><button class="scroll-btn" id="scrollToAbout">
+          <i data-lucide="arrow-up"></i><img src="down-arrow.png" alt="">
+        </button></a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- <script src="https://cdn.jsdelivr.net/npm/lucide@latest"></script> -->
+  <script src="script.js"></script>
+</body>
+</html>
